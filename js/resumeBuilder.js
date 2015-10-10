@@ -1,8 +1,3 @@
-// var awesomeThoughts = "I am Ye. I am AWESOME";
-// console.log(awesomeThoughts);
-// var funThoughts = awesomeThoughts.replace("AWESOME", "FUN");
-// console.log(funThoughts);
-
 var bio = {
 	"name" : "Ye Tian",
 	"role" : "Software Engineer",
@@ -163,37 +158,3 @@ education.display();
 
 // $("#main").append(internationalizeButton);
 $("#mapDiv").append(googleMap);
-$("#main").append();
-// var curWork = {
-// 	"position" : "Software Engineer",
-// 	"employer" : "Amazon",
-// 	"years" : 0,
-// 	"city" : "Seattle",
-// 	"description" : "Machine Learning and Data Mining"
-// };
-
-// var rectEdu = {
-// 	"name" : "University of Southern California",
-// 	"years" : [2013, 2014, 2015],
-// 	"city" : "Los Angeles",
-// 	"degree" : "Master of Science",
-// 	"major" : "Computer Science"
-// };
-
-// var fmtWorkEmployer = HTMLworkEmployer.replace("%data%", curWork.employer);
-// var fmtWorkTitle = HTMLworkTitle.replace("%data%", curWork.position);
-// var fmtWorkDates = HTMLworkDates.replace("%data%", curWork.years);
-// var fmtWorkLocation = HTMLworkLocation.replace("%data%", curWork.city);
-// var fmtWorkDescription = HTMLworkDescription.replace("%data%", curWork.description);
-// var fmtWorkEntry = HTMLworkStart + fmtWorkEmployer + fmtWorkTitle + fmtWorkDates + fmtWorkLocation + fmtWorkDescription;
-
-// var fmtSchoolName = HTMLschoolName.replace("%data%", rectEdu["name"]);
-// var fmtSchoolDegree = HTMLschoolDegree.replace("%data%", rectEdu["degree"]);
-// var fmtSchoolDates = HTMLschoolDates.replace("%data%", rectEdu["years"][0] + '-' + rectEdu["years"][2]);
-// var fmtSchoolLocation = HTMLschoolLocation.replace("%data%", rectEdu["city"]);
-// var fmtSchoolMajor = HTMLschoolLocation.replace("%data%", rectEdu["major"]);
-// var fmtSchoolEntry = HTMLschoolStart + fmtSchoolName + fmtSchoolDegree + fmtSchoolDates + fmtSchoolLocation + fmtSchoolMajor;
-
-// $("#workExperience").append(fmtWorkEntry);
-// $("#education").append(fmtSchoolEntry);
-
